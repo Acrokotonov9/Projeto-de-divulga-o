@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divulgação de TCCs</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <small>PLATAFORMA</small>
+        <h1>DIVULGAÇÃO<br>DE TCCS</h1>
+    </div>
+
+    <div class="search">
+        <input type="text" id="search" placeholder="Buscar por projetos">
+        🔍
+    </div>
+
+    <div class="perfil">👤</div>
+</header>
+
+<nav class="categorias">
+    <button data-categoria="Todos">Todos</button>
+    <button data-categoria="Robótica">Robótica</button>
+    <button data-categoria="IA">IA</button>
+    <button data-categoria="Acessibilidade">Acessibilidade</button>
+    <button data-categoria="Meio ambiente">Meio ambiente</button>
+    <button data-categoria="Automação">Automação</button>
+</nav>
+
+<main>
+
+
+
+    <section id="home">
+
+        <div class="titulo-section">
+            <div>
+                <h2>DESTAQUES</h2>
+                <p>Projetos em evidência</p>
+            </div>
+
+            <span>Ver todos →</span>
+        </div>
+
+        <div id="projetos" class="grid"></div>
+
+    </section>
+
+
+
+    <section id="projeto" class="hidden">
+
+        <button id="voltar" class="voltar">
+            ← Voltar para destaques
+        </button>
+
+        <div class="cabecalho-projeto">
+
+            <div class="informacoes">
+
+                <span id="categoriaProjeto" class="categoria-projeto">
+                    ACESSIBILIDADE
+                </span>
+
+                <h2 id="tituloProjeto">
+                    Plataforma inteligente de apoio a pessoas com baixa visão
+                </h2>
+
+                <p id="resumoProjeto">
+                    Sistema web e mobile que utiliza inteligência artificial
+                    para auxiliar pessoas com baixa visão em tarefas do dia a dia.
+                </p>
+
+                <div class="autor">
+                    <div class="avatar">👤</div>
+
+                    <div>
+                        <strong id="autorProjeto">João da Silva</strong>
+                        <small>Autor do projeto</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="imagem-projeto">
+                IMAGEM DO PROJETO
+            </div>
+
+        </div>
+
+
+        <div class="conteudo-projeto">
+
+            <div>
+
+                <section class="sobre">
+
+                    <h3>SOBRE O PROJETO</h3>
+
+                    <p id="descricaoProjeto">
+                        O projeto propõe uma plataforma inteligente voltada à
+                        acessibilidade, utilizando recursos de inteligência
+                        artificial para auxiliar pessoas com baixa visão em
+                        atividades cotidianas.
+                        
+                        A solução busca promover autonomia, inclusão e facilitar
+                        o acesso a informações por meio do reconhecimento de
+                        objetos, leitura de textos e descrição de ambientes.
+                    </p>
+
+                </section>
+
+
+                <section class="detalhes">
+
+                    <h3>DETALHES DO PROJETO</h3>
+
+                    <div class="detalhes-grid">
+
+                        <div>
+                            🎓
+                            <strong>Curso</strong>
+                            <span id="curso">Ciência da Computação</span>
+                        </div>
+
+                        <div>
+                            🏛
+                            <strong>Instituição</strong>
+                            <span id="instituicao">Universidade XYZ</span>
+                        </div>
+
+                        <div>
+                            📅
+                            <strong>Ano</strong>
+                            <span id="ano">2026</span>
+                        </div>
+
+                        <div>
+                            💻
+                            <strong>Tecnologias</strong>
+                            <span id="tecnologias">
+                                HTML, CSS, JavaScript, Python
+                            </span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+
+
+            <aside>
+
+                <div class="card">
+
+                    <h3>RELEVÂNCIA</h3>
+
+                    <div class="relevancia-principal">
+
+                        <strong id="porcentagem">82%</strong>
+
+                        <p>
+                            consideram este projeto<br>
+                            <b>Muito relevante</b>
+                        </p>
+
+                    </div>
+
+
+                    <div class="barras">
+
+                        <div>
+                            <span>Não relevante</span>
+                            <div class="barra">
+                                <i id="barra1"></i>
+                            </div>
+                            <small>2%</small>
+                        </div>
+
+                        <div>
+                            <span>Pouco relevante</span>
+                            <div class="barra">
+                                <i id="barra2"></i>
+                            </div>
+                            <small>6%</small>
+                        </div>
+
+                        <div>
+                            <span>Relevante</span>
+                            <div class="barra">
+                                <i id="barra3"></i>
+                            </div>
+                            <small>10%</small>
+                        </div>
+
+                        <div>
+                            <span>Muito relevante</span>
+                            <div class="barra">
+                                <i id="barra4"></i>
+                            </div>
+                            <small>82%</small>
+                        </div>
+
+                    </div>
+
+
+                    <button id="avaliar" class="botao">
+                        Avaliar relevância
+                    </button>
+
+                    <div id="opcoes" class="opcoes hidden">
+
+                        <button>Não relevante</button>
+                        <button>Pouco relevante</button>
+                        <button>Relevante</button>
+                        <button>Muito relevante</button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card contato">
+
+                    <h3>ENTRE EM CONTATO</h3>
+
+                    <div class="autor">
+
+                        <div class="avatar">👤</div>
+
+                        <div>
+                            <strong id="autorContato">
+                                João da Silva
+                            </strong>
+
+                            <small>Autor do projeto</small>
+                        </div>
+
+                    </div>
+
+                    <p>✉ joao@universidade.com</p>
+
+                    <p>in linkedin.com/in/joao</p>
+
+                    <button class="botao">
+                        Enviar mensagem
+                    </button>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
